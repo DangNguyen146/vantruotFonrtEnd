@@ -1,0 +1,50 @@
+$gray: #8e9aaf;
+$lavender: #cbc0d3;
+$pale: #eac7cc;
+$white: #f6f6f6;
+
+$pink: darken($pale, 20%);
+.thongTin {
+    .welcome {
+        // background-image: #fff;
+        width: 100%;
+        height: 415px;
+        // position: absolute;
+        top: 25%;
+        border-radius: 5px;
+        // box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .pinkbox {
+        position: absolute;
+        top: -10%;
+        // left: 5%;
+        // background-image: #fff;
+        width: 50%;
+        height: 500px;
+        border-radius: 5px;
+        // box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.5s ease-in-out;
+        z-index: 2;
+    }
+
+    .nodisplay {
+        display: none;
+        transition: all 0.5s ease;
+    }
+
+    .leftbox,
+    .rightbox {
+        position: absolute;
+        width: 50%;
+        transition: 1s all ease;
+    }
+
+    .leftbox {
+        left: -2%;
+    }
+
+    .rightbox {
+        right: -2%;
+    }
+}

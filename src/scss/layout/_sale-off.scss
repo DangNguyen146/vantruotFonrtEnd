@@ -1,0 +1,22 @@
+.sale-off {
+    // background-image: url("../assets/img/sale_bg.png");
+    background-position: center;
+    height: 300px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+
+    .sale-off-content {
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        transform: translateX(-25%) translateY(-25%);
+        text-align: center;
+        h1 {
+            font-size: 3rem;
+        }
+        a {
+            font-size: 2rem;
+        }
+    }
+}
